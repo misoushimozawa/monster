@@ -1,3 +1,4 @@
-function test (){
-  return 'aaa';
-}
+function test () => return 'aaa';
+
+function doTest () => console.log(test());
+
